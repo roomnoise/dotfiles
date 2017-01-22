@@ -1,0 +1,88 @@
+
+# inspiration
+# https://github.com/nicksp/dotfiles/blob/master/git/gitconfig
+# https://github.com/webpro/dotfiles/blob/master/git/.gitconfig
+
+[user]
+  name = Marcus Smith
+  email = marcus.smith@gmail.com
+
+[github]
+  user = roomnoise
+
+[alias]
+  # staging
+  a = add
+  # aa = add --all # ??
+
+  # branch
+  br = branch
+
+  # commit
+  c = commit
+
+  # clone
+  cl = clone
+
+  # checkout
+  co = checkout
+
+  # diff
+  d = diff --color-words
+
+  # merge
+  m = merge
+
+  # pull
+  up = pull
+  plom = pull origin master
+
+  # push
+  p = push
+  pom = push origin master
+
+[color]
+  ui = always
+
+[color "branch"]
+  current = yellow reverse
+  local = yello
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  commit = green bold
+  frag = magneta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+
+[help]
+  # correct typos
+  autocorrect = 1
+
+[merge]
+  tool = opendiff
+
+[pager]
+  # npm install -g diff-so-fancy
+  diff = diff-so-fancy | less --tabs=4 RFX
+  show = diff-so-fanch | less --tabs=4 RFX
+
+[push]
+  default = current
