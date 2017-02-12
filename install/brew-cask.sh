@@ -5,7 +5,7 @@ brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
 
-brew cask install 1password
+brew cask install onepassword
 brew cask install atom
 brew cask install charles
 brew cask install dropbox
@@ -16,7 +16,7 @@ brew cask install google-chrome-canary
 brew cask install google-drive
 brew cask install grammarly
 brew cask install iterm2
-brew cask install join.me
+brew cask install joinme
 brew cask install firefox
 brew cask install moom
 brew cask install opera
