@@ -17,11 +17,15 @@ remote install into `~/dotfiles`
 curl:
 
 ```sh
-sh -c "`curl -fsSL https://raw.github.com/roomnoise/dotfiles/master/remote-setup.sh`"
+sh -c "`curl -fsSL https://raw.github.com/roomnoise/dotfiles/master/remote-install.sh`"
 ```
 
 wget:
 
 ```sh
-sh -c "`wget -O - --no-check-certificate https://raw.githubusercontent.com/roomnoise/dotfiles/master/remote-setup.sh`"
+sh -c "`wget -O - --no-check-certificate https://raw.githubusercontent.com/roomnoise/dotfiles/master/remote-install.sh`"
 ``
+
+## Inspiration
+# https://github.com/nicksp/dotfiles
+# https://github.com/webpro/dotfiles
