@@ -1,0 +1,33 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "e9a8a2f2-4831-4474-8c5d-d5470bde6299"
+  core:
+    disabledPackages: [
+      "imdone-atom"
+      "atom-typescript"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "monokai-seti"
+    ]
+  editor:
+    fontSize: 12
+    invisibles: {}
+  "exception-reporting":
+    userId: "6d885e6e-c566-cfce-d4d2-176772cff562"
+  linter:
+    showErrorPanel: false
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1486832288
+  welcome:
+    showOnStartup: false
