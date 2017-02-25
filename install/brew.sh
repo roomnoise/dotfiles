@@ -16,7 +16,7 @@ fi
 brew update
 
 # Upgrade any already-installed formulae
-brew upgrade --all
+brew upgrade
 
 brew tap homebrew/versions
 brew tap homebrew/dupes
@@ -36,12 +36,12 @@ brew install git-extras
 
 # Languages
 brew install nvm
-brew install rvm
 brew install python
 
 # Databases
 brew install mongodb
 brew install elasticsearch
+brew install redis
 
 # Other Utils
 brew install mtr
