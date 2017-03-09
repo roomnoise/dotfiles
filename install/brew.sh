@@ -29,6 +29,8 @@ brew install moreutils
 brew install findutils
 # GNU `sed`, overwriting the built-in `sed`
 brew install gnu-sed --default-names
+# GNU pg
+brew install gnupg2
 
 # Git
 brew install git
@@ -37,10 +39,12 @@ brew install git-extras
 # Languages
 brew install nvm
 brew install python
+brew install python3
 
 # Databases
-brew install mongodb
+brew install cassandra
 brew install elasticsearch
+brew install mongodb
 brew install redis
 
 # Other Utils

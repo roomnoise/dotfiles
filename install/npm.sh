@@ -25,6 +25,9 @@ then
 
   # Use the stable version of node by default
   nvm alias default node
+
+  # temp fix for removing prefix
+  nvm use --delete-prefix v7.5.0
 fi
 
 # All `npm install <pkg>` commands will pin to the version that was available at the time you run the command
