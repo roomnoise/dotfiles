@@ -13,8 +13,7 @@
 #     ./node_modules/.bin/webpack --config webpack.local.config.js
 #
 
-if test ! $(which nvm)
-then
+if test ! $(which nvm); then
   echo "Installing a stable version of Node..."
 
   # Install the latest stable version of node

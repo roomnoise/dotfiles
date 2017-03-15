@@ -25,6 +25,8 @@ ln -sfv "$DOTFILES_DIR/git/.gitignore" ~
 # Node                                                                        #
 ###############################################################################
 
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+
 . $HOME/dotfiles/install/npm.sh
 
 
