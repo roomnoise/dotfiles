@@ -21,6 +21,7 @@ brew cask install joinme
 brew cask install firefox
 brew cask install moom
 brew cask install opera
+brew cask install postman
 brew cask install sequel-pro
 brew cask install sketch
 brew cask install skype
@@ -31,6 +32,7 @@ brew cask install todoist
 brew cask install transmit
 brew cask install vagrant
 brew cask install virtualbox
+brew cask install viscosity
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
