@@ -14,11 +14,11 @@ brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install google-drive
 brew cask install grammarly
-brew cask install hubstaff
 brew cask install iterm2
 brew cask install java
 brew cask install joinme
 brew cask install firefox
+brew cask install lastpass
 brew cask install moom
 brew cask install opera
 brew cask install postman
