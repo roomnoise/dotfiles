@@ -45,6 +45,7 @@ brew install python3
 brew install cassandra
 brew install elasticsearch
 brew install mongodb
+brew install postgres
 brew install redis
 
 # Other Utils
