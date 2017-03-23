@@ -6,7 +6,7 @@
 # Ask for the administrator password upfront
 sudo -v
 
-pip install -U pip
+pip install pip -U
 
 # Setup / Testing
 pip install distribute
@@ -17,6 +17,9 @@ pip install virtualenv
 pip install cql
 pip install psycopg2
 pip install pymongo
+
+# Task Services
+pip install celery
 
 # Google APIs
 pip install google-api-python-client
