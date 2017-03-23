@@ -46,6 +46,7 @@ brew install cassandra
 brew install elasticsearch
 brew install mongodb
 brew install postgres
+brew install rabbitmq
 brew install redis
 
 # Other Utils
