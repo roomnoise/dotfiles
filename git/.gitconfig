@@ -1,7 +1,4 @@
 
-# inspiration
-# https://github.com/nicksp/dotfiles/blob/master/git/gitconfig
-# https://github.com/webpro/dotfiles/blob/master/git/.gitconfig
 
 [user]
   name = Marcus Smith
@@ -46,13 +43,13 @@
 
 [color "branch"]
   current = yellow reverse
-  local = yello
+  local = yellow
   remote = green
 
 [color "diff"]
   meta = yellow bold
   commit = green bold
-  frag = magneta bold
+  frag = magenta bold
   old = red bold
   new = green bold
   whitespace = red reverse
@@ -81,8 +78,8 @@
 
 [pager]
   # npm install -g diff-so-fancy
-  diff = diff-so-fancy | less --tabs=4 RFX
-  show = diff-so-fanch | less --tabs=4 RFX
+  diff = diff-so-fancy | less --tabs=4 -RFX
+  show = diff-so-fancy | less --tabs=4 -RFX
 
 [push]
   default = current
