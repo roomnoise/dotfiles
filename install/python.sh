@@ -17,6 +17,7 @@ pip install virtualenv
 pip install cql
 pip install psycopg2
 pip install pymongo
+pip install redis
 
 # Task Services
 pip install celery
