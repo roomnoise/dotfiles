@@ -30,5 +30,9 @@ pip install awscli
 pip install boto3
 
 # Libs
+pip install passlib
 pip install pyjwt
 pip install pyopenssl
+pip install pytube
+pip install statsd
+pip install xlrd
