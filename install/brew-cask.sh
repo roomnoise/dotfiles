@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Not on brew-cask
+# zeit now-desktop ( https://zeit.co/desktop )
+
 # Install Caskroom
 brew tap caskroom/cask
 brew tap caskroom/versions
@@ -21,16 +24,18 @@ brew cask install java
 brew cask install joinme
 brew cask install firefox
 brew cask install lastpass
+brew cask install microsoft-office
 brew cask install moom
+brew cask install now
 brew cask install opera
 brew cask install postman
+brew cask install privatetunnel
 brew cask install sequel-pro
 brew cask install sketch
 brew cask install skype
 brew cask install slack
 brew cask install spectacle
 brew cask install sublime-text
-brew cask install todoist
 brew cask install transmit
 brew cask install vagrant
 brew cask install virtualbox
