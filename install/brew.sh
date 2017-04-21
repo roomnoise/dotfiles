@@ -50,6 +50,7 @@ brew install rabbitmq
 brew install redis
 
 # Other Utils
+brew install grafana
 brew install mas
 brew install mtr
 brew install tree
