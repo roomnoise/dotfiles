@@ -30,6 +30,7 @@ brew cask install now
 brew cask install opera
 brew cask install postman
 brew cask install privatetunnel
+brew cask install screenhero
 brew cask install sequel-pro
 brew cask install sketch
 brew cask install skype
