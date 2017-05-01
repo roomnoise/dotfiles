@@ -10,6 +10,7 @@ brew tap caskroom/versions
 brew cask install 1password
 brew cask install atom
 brew cask install charles
+brew cask install codekit
 brew cask install daisydisk
 brew cask install docker
 brew cask install dropbox
