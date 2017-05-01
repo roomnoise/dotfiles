@@ -11,6 +11,7 @@ pip install pip -U
 # Setup / Testing
 pip install distribute
 pip install nose
+pip install pytest
 pip install virtualenv
 
 # DB
