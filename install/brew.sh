@@ -44,6 +44,7 @@ brew install python3
 # Databases
 brew install cassandra
 brew install elasticsearch
+brew install mariadb
 brew install mongodb
 brew install postgres
 brew install rabbitmq
