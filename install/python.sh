@@ -30,6 +30,9 @@ pip install google-api-python-client
 pip install awscli
 pip install boto3
 
+# Stats/Errors
+pip install raven
+
 # Libs
 pip install passlib
 pip install pyjwt
