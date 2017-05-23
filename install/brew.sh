@@ -40,6 +40,7 @@ brew install git-extras
 brew install nvm
 brew install python
 brew install python3
+brew install scala
 
 # Databases
 brew install cassandra
