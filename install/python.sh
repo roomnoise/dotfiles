@@ -34,6 +34,7 @@ pip install boto3
 pip install raven
 
 # Libs
+pip install jupyter
 pip install passlib
 pip install pyjwt
 pip install pyopenssl
