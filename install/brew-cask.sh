@@ -16,6 +16,7 @@ brew cask install docker
 brew cask install dropbox
 brew cask install evernote
 brew cask install flux
+brew cask install github-desktop
 brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install google-drive
