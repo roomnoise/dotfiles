@@ -10,6 +10,7 @@ pip install pip -U
 
 # Setup / Testing
 pip install distribute
+pip install mock
 pip install nose
 pip install pytest
 pip install virtualenv
@@ -28,7 +29,7 @@ pip install google-api-python-client
 
 # AWS
 pip install awscli
-pip install boto3
+pip install boto3 -U
 
 # Stats/Errors
 pip install raven
@@ -39,5 +40,10 @@ pip install passlib
 pip install pyjwt
 pip install pyopenssl
 pip install pytube
+pip install pyyaml
+pip install slackclient
 pip install statsd
 pip install xlrd
+
+# Utilities
+pip install sh
