@@ -57,6 +57,7 @@ brew install mas
 brew install mtr
 brew install tree
 brew install wget --enable-iri
+brew install yarn
 
 # Remove outdated versions from the cellar
 brew cleanup
