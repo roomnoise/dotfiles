@@ -18,9 +18,6 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
-brew tap homebrew/versions
-brew tap homebrew/dupes
-
 # GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
@@ -35,6 +32,7 @@ brew install gnupg2
 # Git
 brew install git
 brew install git-extras
+brew install diff-so-fancy
 
 # Languages
 brew install nvm
