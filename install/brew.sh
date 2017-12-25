@@ -40,11 +40,16 @@ brew install python
 brew install python3
 brew install scala
 
+# Hosting
+brew install heroku/brew/heroku
+
 # Databases
 brew install cassandra
 brew install elasticsearch
 brew install mariadb
+brew install memcached
 brew install mongodb
+brew install postgis
 brew install postgres
 brew install rabbitmq
 brew install redis
