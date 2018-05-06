@@ -10,11 +10,13 @@ brew tap caskroom/versions
 brew cask install 1password
 brew cask install atom
 brew cask install charles
+brew cask install chromedriver
 brew cask install codekit
 brew cask install daisydisk
 brew cask install docker
 brew cask install dropbox
 brew cask install evernote
+brew cask install firefox
 brew cask install flux
 brew cask install github-desktop
 brew cask install google-chrome
@@ -24,7 +26,7 @@ brew cask install grammarly
 brew cask install iterm2
 brew cask install java
 brew cask install joinme
-brew cask install firefox
+brew cask install keynote
 brew cask install lastpass
 brew cask install microsoft-office
 brew cask install moom
