@@ -9,12 +9,12 @@ sudo -v
 pip install pip -U
 
 # Setup / Testing
-pip install distribute
 pip install mock
 pip install nose
 pip install pytest
 pip install pytest-bdd
 pip install virtualenv
+pip install watchdog
 
 # Deploy / Scripting
 pip install ansible -U
@@ -36,7 +36,7 @@ pip install celery-redbeat
 pip install google-api-python-client
 
 # Django
-pip install Django
+pip install django
 pip install dj-database-url
 pip install django-extensions
 pip install django-fsm
