@@ -29,10 +29,11 @@ brew install gnu-sed --default-names
 # GNU pg
 brew install gnupg2
 
-# Git
+# Git & Things
 brew install git
 brew install git-extras
 brew install diff-so-fancy
+brew install hub
 
 # Languages
 brew install nvm
@@ -57,8 +58,10 @@ brew install redis
 # Other Utils
 brew install grafana
 brew install mas
+brew install md5sha1sum
 brew install mtr
 brew install tree
+brew install vault
 brew install wget --enable-iri
 brew install yarn
 
