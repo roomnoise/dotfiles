@@ -9,7 +9,7 @@ sudo -v
 if test ! $(which brew)
 then
   echo "Installing Homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # Make sure we’re using the latest Homebrew
@@ -38,7 +38,7 @@ brew install hub
 # Languages
 brew install nvm
 brew install python
-brew install python3
+brew install python2
 brew install scala
 
 # Hosting
@@ -60,6 +60,7 @@ brew install grafana
 brew install mas
 brew install md5sha1sum
 brew install mtr
+brew install pipenv
 brew install tree
 brew install vault
 brew install wget --enable-iri
