@@ -14,3 +14,4 @@ Thumbs.db
 
 # compiled python
 *.pyc
+__pycache__/
