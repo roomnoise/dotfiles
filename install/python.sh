@@ -17,7 +17,7 @@ pip install virtualenv
 pip install watchdog
 
 # Deploy / Scripting
-pip install ansible -U
+# pip install ansible -U
 
 # Linters
 pip install pycodestyle
@@ -29,6 +29,7 @@ pip install pymongo
 pip install redis
 
 # Task Services
+pip install apache-airflow
 pip install celery
 pip install celery-redbeat
 
@@ -46,6 +47,9 @@ pip install djangorestframework
 # AWS
 pip install awscli
 pip install boto3
+
+# Messaging
+pip install slackclient
 
 # Stats/Errors
 pip install raven
