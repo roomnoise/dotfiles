@@ -14,6 +14,13 @@ ln -sfv "$DOTFILES_DIR/git/.gitignore" ~
 
 
 ###############################################################################
+# XCode                                                                     #
+###############################################################################
+
+xcode-select --install
+
+
+###############################################################################
 # Homebrew                                                                    #
 ###############################################################################
 
@@ -39,7 +46,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Node                                                                        #
 ###############################################################################
 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.0/install.sh | bash
 
 . $HOME/dotfiles/install/npm.sh
 

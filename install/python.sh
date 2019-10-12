@@ -1,12 +1,26 @@
 
 #!/bin/bash
 
+# Install Pyenv 
+if test ! $(which pyenv)
+then
+  curl https://pyenv.run | bash
+  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+  echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+  exec $SHELL
+fi
+
+pyenv install 3.7.4
+
 # Install Python Modules
 
 # Ask for the administrator password upfront
 sudo -v
 
 pip install pip -U
+
+# Virtual Env
+pip install pipenv
 
 # Setup / Testing
 pip install mock
@@ -52,9 +66,10 @@ pip install boto3
 pip install slackclient
 
 # Stats/Errors
-pip install raven
+pip install sentry-sdk
 
 # Libs
+pip install beautifulsoup4
 pip install conversion
 pip install guardian
 pip install jupyter

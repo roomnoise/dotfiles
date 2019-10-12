@@ -40,7 +40,6 @@ npm config set save-exact = true
 # diff-so-fancy — sexy git diffs
 # git-recent — Type `git recent` to see your recent local git branches
 # git-open — Type `git open` to open the GitHub page or website for a repository
-npm install -g bower
 npm install -g diff-so-fancy
 npm install -g git-recent
 npm install -g git-open
