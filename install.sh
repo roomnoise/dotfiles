@@ -63,8 +63,8 @@ sudo pip install ansible
 ###############################################################################
 
 # Copy over Atom configs
-cp -r atom/config.cson $HOME/.atom
-cp -r atom/packages.list $HOME/.atom
+cp -r atom/config.cson $HOME/.atom/
+cp -r atom/packages.list $HOME/.atom/
 
 # Install community packages
 apm list --installed --bare # get a list of installed packages
