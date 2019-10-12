@@ -73,6 +73,12 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # Disable smart dashes as they’re annoying when typing code
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
+# Disable "Ask Siri"
+defaults write com.apple.assistant.support "Assistant Enabled" -bool false
+
+# Remove siri icon from status menu
+defaults write com.apple.Siri StatusMenuVisible -bool false
+
 ###############################################################################
 # Interfaces: trackpad, mouse, keyboard, bluetooth, etc.
 ###############################################################################
